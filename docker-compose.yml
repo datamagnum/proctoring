@@ -1,0 +1,20 @@
+version: "3"
+services:
+  proctor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/opt/app
+    environment:
+      MYSQL_HOST: localhost
+      MYSQL_PORT: 3306
+      MYSQL_USER: proctor
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: quizappstructure
+    network_mode: "host"
+    restart: unless-stopped
+  #network_mode: "host"
+
