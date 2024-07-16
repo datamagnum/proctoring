@@ -5,12 +5,12 @@
 3) System will verify image of user at every time of login and also in exam using face recognition technology.
 
 
-# B) Professor 
-1) Using AI , professor can generate questions & answers, the 2 types of questions & answer can be generated: objective & subjective.
-2) Professor can create exam, view exam history, share details of exam with students, view questions, update, delete questions, but update & delete questions will not work at the time of exam & after the exam.
-3) Professor can insert marks of subjective & practical exam & also publish the results, view results.
-4) Professor can view Live Monitoring of Exam & also can view proctoring logs of the students.
-5) Professor can report problems, recharge exam wallet, view FAQ, contact us.
+# B) Proctor 
+1) Using AI , Proctor can generate questions & answers, the 2 types of questions & answer can be generated: objective & subjective.
+2) Proctor can create exam, view exam history, share details of exam with students, view questions, update, delete questions, but update & delete questions will not work at the time of exam & after the exam.
+3) Proctor can insert marks of subjective & practical exam & also publish the results, view results.
+4) Proctor can view Live Monitoring of Exam & also can view proctoring logs of the students.
+5) Proctor can report problems, recharge exam wallet, view FAQ, contact us.
 
 # C) Students
 1) Give/Take Exam
@@ -44,3 +44,33 @@
 6) Taking Students images logs at every 5 seconds.
 7) CUT, COPY, PASTE, Taking Screenshots Function is disabled.
 8) VM detection & Detection of Screen-Sharing applications. [Support Desktop App Only]
+
+
+follow these Steps to run the 
+
+# Clone the repository
+
+# Set up a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Download these Zip file and extract them and place in your directory
+https://thepioneerfuture-my.sharepoint.com/personal/bhuwan_b_thepioneerfuture_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments%2Feye%5Ftracking%2Ezip&parent=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments&ct=1721109057160&or=OWA-NT-Mail&cid=83f875a1-4930-f7cb-832e-80700d1054ac&ga=1
+
+
+https://thepioneerfuture-my.sharepoint.com/personal/bhuwan_b_thepioneerfuture_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments%2Fmodels%2Ezip&parent=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments&ga=1
+
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set environment variables
+export FLASK_APP=app.py
+export FLASK_ENV=development
+
+# Initialize the database (necessary)
+flask db upgrade
+
+# Run the Flask application
+flask run
+
