@@ -1,0 +1,11 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore version control directories and files
+.git/
+.gitignore
+
+# Ignore local configuration files
+.vscode/
+.idea/
