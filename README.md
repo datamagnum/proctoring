@@ -55,10 +55,9 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Download these Zip file and extract them and place in your directory
-https://thepioneerfuture-my.sharepoint.com/personal/bhuwan_b_thepioneerfuture_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments%2Feye%5Ftracking%2Ezip&parent=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments&ct=1721109057160&or=OWA-NT-Mail&cid=83f875a1-4930-f7cb-832e-80700d1054ac&ga=1
+https://thepioneerfuture-my.sharepoint.com/:u:/p/bhuwan_b/EbmTOSQct2NCkHejQ_hpxmEBXvqIrfk-iCzhNKDbnu9EbQ?e=bDXJtr
 
-
-https://thepioneerfuture-my.sharepoint.com/personal/bhuwan_b_thepioneerfuture_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments%2Fmodels%2Ezip&parent=%2Fpersonal%2Fbhuwan%5Fb%5Fthepioneerfuture%5Fcom%2FDocuments%2FAttachments&ga=1
+https://thepioneerfuture-my.sharepoint.com/:u:/p/bhuwan_b/EUwGpu4DAzFCok-RMf_UA7gBrMq2W-bMrsgkygC0OF5sfw?e=t5Bqvi
 
 
 # Install dependencies
